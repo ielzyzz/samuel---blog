@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Lista de Posts{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        <article>
+            <h2>{{ post.title }}</h2>
+            <p><em>{{ post.published_date }}</em></p>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+        <hr>
+    {% empty %}
+        <p>Nenhum post disponível ainda.</p>
+    {% endfor %}
+{% endblock %}
