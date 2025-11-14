@@ -1,5 +1,3 @@
-/* ======== TEMA ESCURO ======== */
-
 body {
     margin: 0;
     padding: 0;
@@ -17,7 +15,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ======== CONTAINER ======== */
 
 .container {
     width: 90%;
@@ -25,7 +22,6 @@ a:hover {
     margin: 0 auto;
 }
 
-/* ======== HEADER ======== */
 
 .header {
     background: #1E1E1E;
@@ -43,8 +39,6 @@ a:hover {
     color: #4cc9f0;
     font-weight: bold;
 }
-
-/* ======== POSTS ======== */
 
 article {
     background: #1A1A1A;
@@ -64,8 +58,6 @@ article h2 {
     margin-bottom: 10px;
 }
 
-/* ======== FOOTER ======== */
-
 .footer {
     text-align: center;
     padding: 20px 0;
@@ -77,8 +69,6 @@ article h2 {
 .footer p {
     margin: 0;
 }
-
-/* ======== IMAGENS ======== */
 
 img {
     max-width: 100%;
